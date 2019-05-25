@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros_rosdeps</name>
+  <version>0.0.1</version>
+  <description>
+    Sourcing ROS on Windows system dependencies environments.
+  </description>
+  <maintainer email="seanyen@microsoft.com">Sean Yen</maintainer>
+  <license>MIT</license>
+
+  <build_depend>ament_cmake_core</build_depend>
+  <build_depend>ament_package</build_depend>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
